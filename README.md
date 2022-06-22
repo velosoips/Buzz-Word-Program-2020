@@ -8,6 +8,11 @@ counts the number of times a word appears in the twitter tweet compilation files
 the top 5 words from each file/day. These to 5 words can be indicative of trending words,
 topics, people, events, etc. Such results can be analyzed by the user for trend analysis.
 
+## Dataset Sources
+The .json files containing Twitter Tweets used in this program were obtained from the following website:
+https://archive.org/details/archiveteam-twitter-stream-2020-10
+Author: @Sketch the Cow (https://archive.org/details/@sketch_the_cow)
+
 
 ## Getting Started
 
