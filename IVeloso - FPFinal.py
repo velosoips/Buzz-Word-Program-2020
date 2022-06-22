@@ -33,8 +33,8 @@ def listprint(wordcounter): #function to format word count list
     for val,key in valuesandkeys:
         print('{:11s} {:<3d}'.format(key,val))
         
-from collections import Counter
-def top5(wordcounter):
+from collections import Counter #to use Counter functions
+def top5(wordcounter): #function to only pring top 5 most used words in file
     valuesandkeys = []
     for key,val in valuesandkeys:
         topoccurances = Counter.most_common(5)
