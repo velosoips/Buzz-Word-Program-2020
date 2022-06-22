@@ -13,6 +13,16 @@ The .json files containing Twitter Tweets used in this program were obtained fro
 https://archive.org/details/archiveteam-twitter-stream-2020-10
 Author: @Sketch the Cow (https://archive.org/details/@sketch_the_cow)
 
+## Functions Used
+
+* tweetprocess(tweet, wordcounter)
+      * function to edit each line of csv tweet files for analysis/sorting (eg. removing unneccessary characters).
+* wordadd(word, wordcounter)
+      * function to call a word and the number of times it has appeared.
+* listprint(wordcounter)
+      * function to format the printed word count list.
+* top5(wordcounter)
+      * function to only print the top 5 most used words in file.
 
 ## Getting Started
 
